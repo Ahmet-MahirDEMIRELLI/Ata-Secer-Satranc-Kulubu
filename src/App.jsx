@@ -14,8 +14,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    alert(`Bu site test amaçlı yayınlanmıştır. Ata Seçer Satranç Kulübü ile herhangi bir bağlantısı yoktur`);
-    alert(`Ahmet Mahir Demirelli | a.mahir.demirelli@gmail.com`);
+    alert(`Bu site test amaçlı yayınlanmıştır. Ata Seçer Satranç Kulübü ile resmi bir bağlantısı yoktur. \n Ahmet Mahir Demirelli | a.mahir.demirelli@gmail.com `);
   }, [location]);
   return (
     <div className='App'>
