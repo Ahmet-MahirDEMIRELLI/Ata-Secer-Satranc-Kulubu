@@ -22,7 +22,7 @@ function App() {
       <Navbar/>
       <main>
         <Routes>
-          <Route path='https://ahmet-mahirdemirelli.github.io/Ata-Secer-Satranc-Kulubu-Web-Page/' exact element={<Home />} />
+          <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/' exact element={<Home />} />
           <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/about' exact element={<About />} />
           <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/contact' exact element={<Contact />} />
           <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/announcements' exact element={<Announcments />} />
