@@ -24,6 +24,37 @@
     width: 1200px;
   }
   
+  @media (max-width: 1200px) {
+    .aboutBottom p {
+      width: 100%;
+    }
+  
+    .about .aboutBottom h1 {
+      font-size: 50px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .aboutBottom p {
+      font-size: 16px;
+    }
+  
+    .about .aboutBottom h1 {
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .aboutBottom p {
+      font-size: 14px;
+    }
+  
+    .about .aboutBottom h1 {
+      font-size: 30px;
+    }
+  }
+  
   .about .aboutBottom h1 {
     margin-bottom: 10px;
     font-weight: 400;
