@@ -7,10 +7,10 @@ export default function Navbar() {
         <div className='main'>
             <img src={Logo} alt="" />
             <div className='mainLink'>
-                <NavLink to={"/"}>Anasayfa</NavLink>
-                <NavLink to={"/announcements"}>Duyurular</NavLink>
-                <NavLink to={"/about"}>Hakkımızda</NavLink>
-                <NavLink to={"/contact"}>İletişim</NavLink>
+                <NavLink to={"/Ata-Secer-Satranc-Kulubu-Web-Page/"}>Anasayfa</NavLink>
+                <NavLink to={"/Ata-Secer-Satranc-Kulubu-Web-Page/announcements"}>Duyurular</NavLink>
+                <NavLink to={"/Ata-Secer-Satranc-Kulubu-Web-Page/about"}>Hakkımızda</NavLink>
+                <NavLink to={"/Ata-Secer-Satranc-Kulubu-Web-Page/contact"}>İletişim</NavLink>
             </div>
         </div>
     </div>
