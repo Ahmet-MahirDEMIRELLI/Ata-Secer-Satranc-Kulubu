@@ -22,10 +22,10 @@ function App() {
       <Navbar/>
       <main>
         <Routes>
-          <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/' exact element={<Home />} />
-          <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/about' exact element={<About />} />
-          <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/contact' exact element={<Contact />} />
-          <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/announcements' exact element={<Announcments />} />
+          <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/' element={<Home />} />
+          <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/about' element={<About />} />
+          <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/contact' element={<Contact />} />
+          <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/announcements' element={<Announcments />} />
           <Route path='/Ata-Secer-Satranc-Kulubu-Web-Page/announcements/:key' element={<AnnouncementDetail />} />
           <Route path='*' element={<WrongPath/>}/>
         </Routes>
