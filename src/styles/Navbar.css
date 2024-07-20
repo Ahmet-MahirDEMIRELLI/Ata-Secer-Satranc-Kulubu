@@ -76,8 +76,7 @@
   top: 0;
   right: -120px;            /* masaüstünde gözükmesin diye */
   align-items: center;
-  justify-content: top;
-  margin-top: 74px;
+  margin-top: 67px;
   background-color: #D8B4A6;
   padding: 16px;
   transition: transform 1s;

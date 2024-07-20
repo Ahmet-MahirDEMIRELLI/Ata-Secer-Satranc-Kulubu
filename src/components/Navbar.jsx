@@ -1,12 +1,23 @@
 import Logo from '../assets/logo.png'
 import { NavLink } from 'react-router-dom'
 import '../styles/Navbar.css'
-import {useRef} from 'react'
+import {useRef, useEffect} from 'react'
 export default function Navbar() {
   const sideBarRef = useRef(null);
   const handleClick = () => {
     sideBarRef.current.classList.toggle('openSideBar');
   }
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        sideBarRef.current.classList.remove('openSideBar');
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <header className='navbar'>
       <div className='links'>
