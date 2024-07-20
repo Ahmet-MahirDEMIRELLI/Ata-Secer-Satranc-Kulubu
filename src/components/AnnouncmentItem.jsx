@@ -4,7 +4,7 @@ import '../styles/Announcment.css';
 export default function AnnouncmentItem({ id, image, title, content }) {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate(`/announcements/${id}`);
+    navigate(`/Ata-Secer-Satranc-Kulubu/announcements/${id}`);
   }
   return (
     <div className='announcmentItem' onClick={handleClick}>
