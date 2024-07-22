@@ -42,4 +42,10 @@ export const Data = [
         image: null, 
         content: 'Görselsiz duyuru. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores repudiandae, maxime doloribus veritatis facilis dolorem mollitia, commodi est non, libero eius minima voluptatum quasi! Voluptatum animi vitae quo consequatur nostrum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores repudiandae, maxime doloribus veritatis facilis dolorem mollitia, commodi est non, libero eius minima voluptatum quasi! Voluptatum animi vitae quo consequatur nostrum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores repudiandae, maxime doloribus veritatis facilis dolorem mollitia, commodi est non, libero eius minima voluptatum quasi! Voluptatum animi vitae quo consequatur nostrum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores repudiandae, maxime doloribus veritatis facilis dolorem mollitia, commodi est non, libero eius minima voluptatum quasi! Voluptatum animi vitae quo consequatur nostrum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores repudiandae, maxime doloribus veritatis facilis dolorem mollitia, commodi est non, libero eius minima voluptatum quasi! Voluptatum animi vitae quo consequatur nostrum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores repudiandae, maxime doloribus veritatis facilis dolorem mollitia, commodi est non, libero eius minima voluptatum quasi! Voluptatum animi vitae quo consequatur nostrum?'
     },
+    {
+        id: '8',
+        title: 'Duyuru Yeni',
+        image: null, 
+        content: 'Bu bir yeni duyuru'
+    },
 ];
